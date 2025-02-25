@@ -29,6 +29,7 @@ input{
   appearance: none;
   min-width: 200px;
   width: 100%;
+  border-radius: 0;
 }
 
 body {
