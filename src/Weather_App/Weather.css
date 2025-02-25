@@ -168,7 +168,6 @@ body.dark {
 
 .wrap .contents .box1 .b_inner .title input {
   border: none;
-  max-width: 400px;
   background-color: transparent;
   font-family: "I";
   font-size: 26px;
@@ -825,7 +824,7 @@ body.dark {
 
 @media screen and (max-width:400px) {
   .wrap .contents .box1 .b_inner .Change_Mode {
-    right: -30px;
+    right: -20px;
   }
   .wrap{
     padding: 0 16px;
