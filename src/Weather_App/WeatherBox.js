@@ -5,39 +5,39 @@ import Header from './Header';
 function WeatherBox({ data, isError, isLoading, setCity, refetch, DarkMode }) {
 
   const icons = {
-    'clear sky': DarkMode ? '/img/main2_sun_type2.jpg' : '/img/main_sun_type2.jpg',
-    'few clouds': DarkMode ? '/img/main2_sun_type2.jpg' : '/img/main_sun_type2.jpg',
-    'scattered clouds': DarkMode ? '/img/main2_sun_type2.jpg' : '/img/main_sun_type2.jpg',
-    'broken clouds': DarkMode ? '/img/main2_cloud_type2.jpg' : '/img/main_cloud_type2.jpg',
-    'overcast clouds': DarkMode ? '/img/main2_cloud_type2.jpg' : '/img/main_cloud_type2.jpg',
-    'light rain': DarkMode ? '/img/main2_rain.jpg' : '/img/main_rain.jpg',
-    'moderate rain': DarkMode ? '/img/main2_rain.jpg' : '/img/main_rain.jpg',
-    'heavy rain': DarkMode ? '/img/main2_rain.jpg' : '/img/main_rain.jpg',
-    'very heavy rain': DarkMode ? '/img/main2_rain.jpg' : '/img/main_rain.jpg',
-    'extreme rain': DarkMode ? '/img/main2_rain.jpg' : '/img/main_rain.jpg',
-    'freezing rain': DarkMode ? '/img/main2_rain.jpg' : '/img/main_rain.jpg',
-    'light shower rain': DarkMode ? '/img/main2_rain.jpg' : '/img/main_rain.jpg',
-    'light snow': DarkMode ? '/img/main2_snow.jpg' : '/img/main_snow.jpg',
-    'moderate snow': DarkMode ? '/img/main2_snow.jpg' : '/img/main_snow.jpg',
-    'heavy snow': DarkMode ? '/img/main2_snow.jpg' : '/img/main_snow.jpg',
-    'sleet': DarkMode ? '/img/main2_snow.jpg' : '/img/main_snow.jpg',
-    'light shower snow': DarkMode ? '/img/main2_snow.jpg' : '/img/main_snow.jpg',
-    'heavy shower snow': DarkMode ? '/img/main2_snow.jpg' : '/img/main_snow.jpg',
-    'mist': DarkMode ? '/img/main2_fog.jpg' : '/img/main_fog.jpg',
-    'smoke': DarkMode ? '/img/main2_fog.jpg' : '/img/main_fog.jpg',
-    'haze': DarkMode ? '/img/main2_fog.jpg' : '/img/main_fog.jpg',
-    'fog': DarkMode ? '/img/main2_fog.jpg' : '/img/main_fog.jpg',
-    'dust': DarkMode ? '/img/main2_fog.jpg' : '/img/main_fog.jpg',
-    'ash': DarkMode ? '/img/main2_fog.jpg' : '/img/main_fog.jpg',
-    'sand': DarkMode ? '/img/main2_wind.jpg' : '/img/main_wind.jpg',
-    'squall': DarkMode ? '/img/main2_wind.jpg' : '/img/main_wind.jpg',
-    'tornado': DarkMode ? '/img/main2_wind.jpg' : '/img/main_wind.jpg',
+    'clear sky': DarkMode ? './img/main2_sun_type2.jpg' : './img/main_sun_type2.jpg',
+    'few clouds': DarkMode ? './img/main2_sun_type2.jpg' : './img/main_sun_type2.jpg',
+    'scattered clouds': DarkMode ? './img/main2_sun_type2.jpg' : './img/main_sun_type2.jpg',
+    'broken clouds': DarkMode ? './img/main2_cloud_type2.jpg' : './img/main_cloud_type2.jpg',
+    'overcast clouds': DarkMode ? './img/main2_cloud_type2.jpg' : './img/main_cloud_type2.jpg',
+    'light rain': DarkMode ? './img/main2_rain.jpg' : './img/main_rain.jpg',
+    'moderate rain': DarkMode ? './img/main2_rain.jpg' : './img/main_rain.jpg',
+    'heavy rain': DarkMode ? './img/main2_rain.jpg' : './img/main_rain.jpg',
+    'very heavy rain': DarkMode ? './img/main2_rain.jpg' : './img/main_rain.jpg',
+    'extreme rain': DarkMode ? './img/main2_rain.jpg' : './img/main_rain.jpg',
+    'freezing rain': DarkMode ? './img/main2_rain.jpg' : './img/main_rain.jpg',
+    'light shower rain': DarkMode ? './img/main2_rain.jpg' : './img/main_rain.jpg',
+    'light snow': DarkMode ? './img/main2_snow.jpg' : './img/main_snow.jpg',
+    'moderate snow': DarkMode ? './img/main2_snow.jpg' : './img/main_snow.jpg',
+    'heavy snow': DarkMode ? './img/main2_snow.jpg' : './img/main_snow.jpg',
+    'sleet': DarkMode ? './img/main2_snow.jpg' : './img/main_snow.jpg',
+    'light shower snow': DarkMode ? './img/main2_snow.jpg' : './img/main_snow.jpg',
+    'heavy shower snow': DarkMode ? './img/main2_snow.jpg' : './img/main_snow.jpg',
+    'mist': DarkMode ? './img/main2_fog.jpg' : './img/main_fog.jpg',
+    'smoke': DarkMode ? './img/main2_fog.jpg' : './img/main_fog.jpg',
+    'haze': DarkMode ? './img/main2_fog.jpg' : './img/main_fog.jpg',
+    'fog': DarkMode ? './img/main2_fog.jpg' : './img/main_fog.jpg',
+    'dust': DarkMode ? './img/main2_fog.jpg' : './img/main_fog.jpg',
+    'ash': DarkMode ? './img/main2_fog.jpg' : './img/main_fog.jpg',
+    'sand': DarkMode ? './img/main2_wind.jpg' : './img/main_wind.jpg',
+    'squall': DarkMode ? './img/main2_wind.jpg' : './img/main_wind.jpg',
+    'tornado': DarkMode ? './img/main2_wind.jpg' : './img/main_wind.jpg',
 
 
   }
 
   const description = data?.weather[0].description;
-  const iconSelect = icons[description] || '/img/main_sun_type2.jpg';
+  const iconSelect = icons[description] || './img/main_sun_type2.jpg';
 
   if (isLoading) {
     return <h2 className="loading">Loading...<span>(. ❛ ᴗ ❛.)</span></h2>

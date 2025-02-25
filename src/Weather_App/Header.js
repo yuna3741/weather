@@ -36,7 +36,7 @@ function Header({ setCityInput, cityInput, enter, handClick, toggle, DarkMode })
                     </div>
                 </div>
                 <figure className="Change_Mode" onClick={toggle}>
-                    <img src={DarkMode ? "/img/change-02.png" : "/img/change-01.png"} alt="change_mode" />
+                    <img src={DarkMode ? "./img/change-02.png" : "./img/change-01.png"} alt="change_mode" />
                 </figure>
             </div>
         </div>
