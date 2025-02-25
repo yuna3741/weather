@@ -831,14 +831,15 @@ body.dark {
 
 @media screen and (max-width:400px) {
   .wrap .contents .box1 .b_inner .Change_Mode {
-    right: 6px;
+    right: 0px;
   }
   .wrap{
-    padding: 0;
+    padding: 0 16px;
   }
+
 
   .all_hours .h_contents .h_box {
     padding: 12px;
-    height: 140px;
+    height: 144px;
   }
 }
