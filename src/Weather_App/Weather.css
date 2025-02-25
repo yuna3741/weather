@@ -810,6 +810,10 @@ body.dark {
     font-weight: 600;
   }
 
+  .wrap .contents .box1 .b_inner .title input::placeholder{
+    font-size: 14px;
+  }
+
   .wrap .contents .box1 .b_inner .title input:focus {
     font-size: 14px;
     font-weight: 600;
