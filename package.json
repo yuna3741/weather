@@ -2,6 +2,7 @@
   "name": "contents",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yuna3741.github.io/weather/",
   "dependencies": {
     "@tanstack/react-query": "^5.66.9",
     "@tanstack/react-query-devtools": "^5.66.9",
@@ -12,8 +13,8 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4",
-    "homepage": "https://yuna3741.github.io/weather"
+    "web-vitals": "^2.1.4"
+    
   },
   "scripts": {
     "start": "react-scripts start",
