@@ -768,8 +768,8 @@ body.dark {
   .wrap .contents .box1 .b_inner .Change_Mode {
     width: 75px;
     height: 5px;
-    bottom: 186px;
-    right: -63px;
+    bottom: 180px;
+    right: -22px;
   }
 
 
@@ -825,13 +825,13 @@ body.dark {
 
 @media screen and (max-width:450px) {
   .wrap .contents .box1 .b_inner .Change_Mode {
-    right: -40px;
+    right: -22px;
   }
 }
 
 @media screen and (max-width:400px) {
   .wrap .contents .box1 .b_inner .Change_Mode {
-    right: -20px;
+    right: 6px;
   }
   .wrap{
     padding: 0;
