@@ -749,8 +749,11 @@ body.dark {
   .wrap .contents .box1 .b_inner .title input {
     max-width: 100%;
     font-size: 14px;
-    max-width: 222px;
+    max-width: 300px;
     font-weight: 600;
+    border-bottom: 0.5px solid #ffca5669;
+    padding-bottom: 4px;
+
   }
 
   .wrap .contents .box1 .b_inner .title h1 {
