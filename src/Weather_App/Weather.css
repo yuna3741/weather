@@ -532,7 +532,7 @@ body.dark {
   .wrap .contents .box {
     max-width: 442px;
     height: auto;
-    padding: 10px;
+    padding: 0px;
   }
 
   .wrap .contents .box .b_inner {
@@ -829,6 +829,6 @@ body.dark {
     right: -20px;
   }
   .wrap{
-    padding: 0 16px;
+    padding: 0;
   }
 }
