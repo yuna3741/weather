@@ -179,6 +179,7 @@ body.dark {
 
 .wrap .contents .box1 .b_inner .title input::placeholder {
   color: #000;
+  font-size: 26px;
 
 }
 
@@ -460,6 +461,10 @@ body.dark {
 
   }
 
+  .wrap .contents .box1 .b_inner .title input::placeholder{
+    font-size: 24px;
+  }
+
   .wrap .contents .box1 .b_inner .title input:focus {
     font-size: 24px;
   }
@@ -698,6 +703,10 @@ body.dark {
     font-weight: 400;
   }
 
+  .wrap .contents .box1 .b_inner .title input::placeholder{
+    font-size: 18px;
+  }
+
   .wrap .contents .box1 .b_inner .title input:focus {
     font-size: 18px;
     font-weight: 400;
@@ -727,6 +736,9 @@ body.dark {
 
   .wrap .contents .box1 .b_inner .title input {
     max-width: 100%;
+    font-size: 14px;
+    max-width: 222px;
+    font-weight: 600;
   }
 
   .wrap .contents .box1 .b_inner .title h1 {
@@ -734,14 +746,13 @@ body.dark {
     margin-top: 20px;
   }
 
-  .wrap .contents .box1 .b_inner .title input {
-    font-size: 16px;
-    max-width: 287px;
-    font-weight: 600;
+
+  .wrap .contents .box1 .b_inner .title input::placeholder{
+    font-size: 14px;
   }
 
   .wrap .contents .box1 .b_inner .title input:focus {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
   }
 
@@ -804,20 +815,7 @@ body.dark {
     padding: 26px;
   }
 
-  .wrap .contents .box1 .b_inner .title input {
-    font-size: 14px;
-    max-width: 222px;
-    font-weight: 600;
-  }
-
-  .wrap .contents .box1 .b_inner .title input::placeholder{
-    font-size: 14px;
-  }
-
-  .wrap .contents .box1 .b_inner .title input:focus {
-    font-size: 14px;
-    font-weight: 600;
-  }
+  
 }
 
 @media screen and (max-width:450px) {
