@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.ce06d224.css",
-    "main.js": "/static/js/main.e0ac8b30.js",
-    "static/js/453.b0afbdb4.chunk.js": "/static/js/453.b0afbdb4.chunk.js",
-    "static/media/bg.jpg": "/static/media/bg.ed7f39362b7a7371cb6f.jpg",
-    "static/media/Anton-Regular.ttf": "/static/media/Anton-Regular.170b842f9a8cd6150a0d.ttf",
-    "static/media/FrancoisOne-Regular.ttf": "/static/media/FrancoisOne-Regular.eac14538475d205a7761.ttf",
-    "static/media/IndieFlower-Regular.ttf": "/static/media/IndieFlower-Regular.599d26584b9afc1d20b1.ttf",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.ce06d224.css.map": "/static/css/main.ce06d224.css.map",
-    "main.e0ac8b30.js.map": "/static/js/main.e0ac8b30.js.map",
-    "453.b0afbdb4.chunk.js.map": "/static/js/453.b0afbdb4.chunk.js.map"
+    "main.css": "/weather/static/css/main.34be1d96.css",
+    "main.js": "/weather/static/js/main.5124a8da.js",
+    "static/js/453.b0afbdb4.chunk.js": "/weather/static/js/453.b0afbdb4.chunk.js",
+    "static/media/bg.jpg": "/weather/static/media/bg.ed7f39362b7a7371cb6f.jpg",
+    "static/media/Anton-Regular.ttf": "/weather/static/media/Anton-Regular.170b842f9a8cd6150a0d.ttf",
+    "static/media/FrancoisOne-Regular.ttf": "/weather/static/media/FrancoisOne-Regular.eac14538475d205a7761.ttf",
+    "static/media/IndieFlower-Regular.ttf": "/weather/static/media/IndieFlower-Regular.599d26584b9afc1d20b1.ttf",
+    "static/media/logo.svg": "/weather/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/weather/index.html",
+    "main.34be1d96.css.map": "/weather/static/css/main.34be1d96.css.map",
+    "main.5124a8da.js.map": "/weather/static/js/main.5124a8da.js.map",
+    "453.b0afbdb4.chunk.js.map": "/weather/static/js/453.b0afbdb4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce06d224.css",
-    "static/js/main.e0ac8b30.js"
+    "static/css/main.34be1d96.css",
+    "static/js/main.5124a8da.js"
   ]
 }
