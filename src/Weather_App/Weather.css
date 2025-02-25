@@ -789,7 +789,7 @@ body.dark {
   }
 
   .all_hours .h_contents .h_box {
-    padding: 12px;
+    padding: 0;
   }
 
   .all_hours .h_contents .h_box h2:nth-child(1) {
