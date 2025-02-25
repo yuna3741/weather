@@ -24,6 +24,13 @@ button,a{
   -webkit-tap-highlight-color: transparent;
 }
 
+input{
+  -webkit-appearance: none;
+  appearance: none;
+  min-width: 200px;
+  width: 100%;
+}
+
 body {
   font-family: "F";
   height: 100%;
