@@ -532,7 +532,7 @@ body.dark {
   .wrap .contents .box {
     max-width: 442px;
     height: auto;
-    padding: 0px;
+    padding: 10px;
   }
 
   .wrap .contents .box .b_inner {
@@ -733,6 +733,11 @@ body.dark {
     max-width: 328px;
   }
 
+  .wrap .contents .box1{
+    padding: 0;
+    max-width: 100%;
+  }
+
 
   .wrap .contents .box1 .b_inner .title input {
     max-width: 100%;
@@ -830,5 +835,10 @@ body.dark {
   }
   .wrap{
     padding: 0;
+  }
+
+  .all_hours .h_contents .h_box {
+    padding: 12px;
+    height: 140px;
   }
 }
