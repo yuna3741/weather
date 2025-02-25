@@ -785,11 +785,11 @@ body.dark {
 
   .all_hours {
     max-width: 328px;
-    padding: 0 16px;
+    padding: 0px;
   }
 
   .all_hours .h_contents .h_box {
-    padding: 0;
+    padding: 12px;
   }
 
   .all_hours .h_contents .h_box h2:nth-child(1) {
